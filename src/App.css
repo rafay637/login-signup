@@ -1,0 +1,17 @@
+.main {
+  /* padding: 5rem 0; */
+  /* max-width: 50rem; */
+  text-align: center;
+  margin-top: 10rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.links{
+  text-decoration-line: none;
+  color: dodgerblue;
+
+  &:hover{
+    color: blueviolet;
+    text-decoration: underline;
+  }
+}
