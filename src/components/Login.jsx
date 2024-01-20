@@ -23,7 +23,7 @@ export const Login = () => {
                                 noValidate
                                 autoComplete="off"
                             >
-                                <TextField id="standard-basic" label="Email" variant="standard" />
+                                <TextField type='email' id="standard-basic" label="Email" variant="standard" />
                             </Box>
 
                             <Box
@@ -34,7 +34,7 @@ export const Login = () => {
                                 noValidate
                                 autoComplete="off"
                             >
-                                <TextField id="standard-basic" label="Password" variant="standard" />
+                                <TextField type='password' id="standard-basic" label="Password" variant="standard" />
                             </Box>
                         </div>
                     </div>

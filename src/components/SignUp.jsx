@@ -23,7 +23,7 @@ export const SignUp = () => {
                                 noValidate
                                 autoComplete="off"
                             >
-                                <TextField id="standard-basic" label="First Name" variant="standard" />
+                                <TextField type='text' id="standard-basic" label="First Name" variant="standard" />
                             </Box>
 
                             <Box
@@ -34,7 +34,7 @@ export const SignUp = () => {
                                 noValidate
                                 autoComplete="off"
                             >
-                                <TextField id="standard-basic" label="Last Name" variant="standard" />
+                                <TextField type='text' id="standard-basic" label="Last Name" variant="standard" />
                             </Box>
 
                             <Box
@@ -45,7 +45,7 @@ export const SignUp = () => {
                                 noValidate
                                 autoComplete="off"
                             >
-                                <TextField id="standard-basic" label="Country" variant="standard" />
+                                <TextField type='text' id="standard-basic" label="Country" variant="standard" />
                             </Box>
 
                             <Box
@@ -56,7 +56,7 @@ export const SignUp = () => {
                                 noValidate
                                 autoComplete="off"
                             >
-                                <TextField id="standard-basic" label="Email" variant="standard" />
+                                <TextField type='email' id="standard-basic" label="Email" variant="standard" />
                             </Box>
 
                             <Box
@@ -67,7 +67,7 @@ export const SignUp = () => {
                                 noValidate
                                 autoComplete="off"
                             >
-                                <TextField id="standard-basic" label="Password" variant="standard" />
+                                <TextField type='password' id="standard-basic" label="Password" variant="standard" />
                             </Box>
 
                             <Box
@@ -78,7 +78,7 @@ export const SignUp = () => {
                                 noValidate
                                 autoComplete="off"
                             >
-                                <TextField id="standard-basic" label="Confirm Password" variant="standard" />
+                                <TextField type='password' id="standard-basic" label="Confirm Password" variant="standard" />
                             </Box>
                         </div>
                     </div>
